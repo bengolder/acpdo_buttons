@@ -148,13 +148,23 @@
 	color:#333;
 	letter-spacing:1px;
 }
+
+#cmr {
+	text-decoration:none;
+	color:#333;
+	letter-spacing:1px;
+	padding: 0 10px;
+	font-size: 100%;
+	border-top: 1px solid #ddd;
+}
+
 #inmate {
 	border-left: 1px solid #ddd;
 }
-#cdf p, #inmate p {
+#cdf p, #inmate p, #cmr p {
 	text-align: center;
 }
-#cdf .btn, #inmate .btn {
+#cdf .btn, #inmate .btn, #cmr .btn {
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
 	border-radius: 8px; /* future proofing */
@@ -183,7 +193,7 @@
 	color: #069;
 	letter-spacing:1px;
 }
-#cdf .btn:hover, #inmate .btn:hover {
+#cdf .btn:hover, #inmate .btn:hover, #cmr .btn:hover {
 	background-color: #cce2f9;
 	/* Safari 4-5, Chrome 1-9 */
   	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#9bcdff));
@@ -427,7 +437,11 @@ img.btn {
                     <p><a href="http://www.acgov.org/sheriff_app/" class="btn">Inmate Locator</a></p>
                 </div>-->
               </div>
-              
+
+              <div id="cmr">
+                <p>You can now apply to our Clean Slate program online using Clear My Record. Clear My Record is a website for applying to Clean Slate services in multiple California counties.
+                <a href="https://clearmyrecord.codeforamerica.org" rel="external" class="btn">Apply to Clean Slate</a></p>
+              </div>
             </div>
             
             <div style="clear:both;"></div>
